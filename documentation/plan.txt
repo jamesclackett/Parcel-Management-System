@@ -1,0 +1,37 @@
+PARCEL MANAGEMENT SYSTEM:
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Inspired by necessity to track inbound/outbound student parcels being routed through a
+convenience store beside a large university. A particular courier was denied access to the
+campus and had to use the store as a parcel drop-off point for 9 months. This meant an
+influx of approximately 10 parcels each day.
+
+
+Desirable functions:
+> Store and search parcel information in a database (along with editing/deleting existing).
+> Parcel statistics (future)
+> Send notifications to students via SMS (future)
+> Show history
+
+Parcel information:
+> Student details (name, address, phone-number)
+> Parcel info (company, colour, arrival-date, collected-date)
+
+
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+
+
+DESIGN PLAN:
+---------------------------------------------------------------------------------------------
+Application will be designed with core Java, with H2 database as an only
+dependency. I have chosen H2 as it allows for an embedded database. The
+application is well suited to this, as it is intended to be a stand-alone
+feature, separate from any of the shop's existing systems. Database import/export
+functions will be included in the future.
+
+Development will be carried out on an InnoDB database in MYSQL workbench to take
+advantage of its UI. Once development is complete, the application will be refactored
+to interface to its internal H2 DB.
+
+
