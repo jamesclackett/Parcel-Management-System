@@ -22,7 +22,10 @@ The application makes use of an embedded H2 Database and a MYSQL connector. As t
 One device can be used to track parcels.
 It is written in Java and uses Swing for its UI.
 
-To try out this application, simply clone the project and run the Main file (note: requires Maven).
+
+To try out this application there are two options:
+* Clone the project and run it (note: requires Maven).
+* Run the production JAR file 'ParcelManagementSystem.jar'
 
 ---
 
